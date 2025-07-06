@@ -33,34 +33,11 @@ dependencies = [
 ]
 
 [[package]]
-org = "ballerina"
-name = "log"
-version = "2.12.0"
-dependencies = [
-	{org = "ballerina", name = "io"},
-	{org = "ballerina", name = "jballerina.java"},
-	{org = "ballerina", name = "lang.value"},
-	{org = "ballerina", name = "observe"}
-]
-modules = [
-	{org = "ballerina", packageName = "log", moduleName = "log"}
-]
-
-[[package]]
-org = "ballerina"
-name = "observe"
-version = "1.5.0"
-dependencies = [
-	{org = "ballerina", name = "jballerina.java"}
-]
-
-[[package]]
 org = "lasith123456"
 name = "testdevant3"
 version = "0.1.0"
 dependencies = [
-	{org = "ballerina", name = "io"},
-	{org = "ballerina", name = "log"}
+	{org = "ballerina", name = "io"}
 ]
 modules = [
 	{org = "lasith123456", packageName = "testdevant3", moduleName = "testdevant3"}
